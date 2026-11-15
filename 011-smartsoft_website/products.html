@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | SMARTSOFT Trading Enterprise</title>
+  <meta name="description" content="PLCs, vision inspection systems, barcode solutions and software.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand"><img src="img/logo.svg" alt=""><span><span class="brand__name">SMARTSOFT</span><span class="brand__sub">TRADING ENTERPRISE</span></span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav"><a href="index.html">Home</a><a href="products.html" class="active">Products</a><a href="services.html">Services</a><a href="plc.html">Automation PLC</a><a href="team.html">Teams</a><a href="contact.html">Contacts</a><a href="contact.html#quote" class="btn btn--primary btn--sm">Get a Quote</a></nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero page-hero">
+      <div class="container hero__grid">
+        <div><h1>Our Products</h1><p class="lead">Quality industrial equipment and automation solutions for your business needs.</p></div>
+        <div class="hero__media"><img src="img/camera.svg" alt="Industrial vision camera"></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filter products">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="plc">PLC &amp; Control</button>
+          <button class="chip" data-filter="vision">Vision Systems</button>
+          <button class="chip" data-filter="barcode">Barcode &amp; Label</button>
+          <button class="chip" data-filter="software">Software</button>
+        </div>
+        <div class="cards" id="productGrid">
+          <article class="card" data-category="plc">
+            <div class="card__img"><img src="img/plc.svg" alt="" loading="lazy"></div>
+            <div class="card__body"><h3>PLC &amp; Control Systems</h3><p>Omron, Allen-Bradley and other industrial PLCs for automation and process control.</p><a href="plc.html" class="link-more">Learn More <span aria-hidden="true">&rarr;</span></a></div>
+          </article>
+          <article class="card" data-category="vision">
+            <div class="card__img"><img src="img/camera.svg" alt="" loading="lazy"></div>
+            <div class="card__body"><h3>Vision Inspection Systems</h3><p>AI-powered cameras and software for quality control and defect detection.</p><a href="vision-inspection.html" class="link-more">Learn More <span aria-hidden="true">&rarr;</span></a></div>
+          </article>
+          <article class="card" data-category="barcode">
+            <div class="card__img"><img src="img/printer.svg" alt="" loading="lazy"></div>
+            <div class="card__body"><h3>Barcode &amp; QR Solutions</h3><p>Industrial barcode scanners, QR readers and label printers for tracking and traceability.</p><a href="contact.html" class="link-more">Learn More <span aria-hidden="true">&rarr;</span></a></div>
+          </article>
+          <article class="card" data-category="software">
+            <div class="card__img"><img src="img/laptop.svg" alt="" loading="lazy"></div>
+            <div class="card__body"><h3>Software Solutions</h3><p>Custom applications for web, desktop and mobile platforms.</p><a href="services.html" class="link-more">Learn More <span aria-hidden="true">&rarr;</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="index.html" class="brand"><img src="img/logo.svg" alt=""><span><span class="brand__name">SMARTSOFT</span><span class="brand__sub">TRADING ENTERPRISE</span></span></a>
+        <div class="footer__contacts">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg> 5710598</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> info@smartsoft.com.ph</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-7 7-12a7 7 0 0 0-14 0c0 5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg> Angono, Rizal (Barangay San Vicente)</span>
+        </div>
+        <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="YouTube">&#9654;</a></div>
+      </div>
+      <p class="footer__copy">&copy; <span data-year>2026</span> Smartsoft Trading Enterprise. All rights reserved. &middot; <a href="admin/dashboard.html">Admin</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
